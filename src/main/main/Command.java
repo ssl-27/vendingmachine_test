@@ -1,0 +1,8 @@
+package main;
+
+
+
+
+public interface Command {
+  public String execute(VendingMachine v, String cmdPart);
+}
